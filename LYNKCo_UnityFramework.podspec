@@ -13,8 +13,8 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11.0'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  spec.source       = { :git => 'https://github.com/ALVA-heyu/LYNKCo_UnityFramework.git', :tag => spec.version }
+  spec.source       = { :http => 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/LYNK&Co_Frameworks.zip' }
 
-  spec.vendored_frameworks = '**/UnityFramework.framework', '**/arsdk.framework'
+  spec.vendored_frameworks = 'UnityFramework.framework', 'arsdk.framework'
 
 end
