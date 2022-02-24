@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :http => 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/LYNK&Co_Frameworks.zip' }
 
-  spec.vendored_frameworks = 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/Frameworks/UnityFramework.framework' 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/Frameworkss/arsdk.framework'
+  spec.vendored_frameworks = 'LYNK&Co_Frameworks/UnityFramework.framework' 'LYNK&Co_Frameworks/arsdk.framework'
 
 end
