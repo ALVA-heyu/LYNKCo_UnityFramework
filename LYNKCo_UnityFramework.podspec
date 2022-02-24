@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
                           LYNK&Co UnityFramework for iOS...
                    DESC
   spec.homepage     = 'https://github.com/ALVA-heyu/LYNKCo_UnityFramework'
-  spec.license      = 'MIT'
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { 'ALVA-heyu' => 'yu.he@alva.com.cn' }
   spec.platform     = :ios
   spec.ios.deployment_target = '11.0'
@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :http => 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/LYNK&Co_Frameworks.zip' }
 
-  spec.vendored_frameworks = 'Frameworks/UnityFramework.framework Frameworkss/arsdk.framework'
+  spec.vendored_frameworks = 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/Frameworks/UnityFramework.framework' 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/Frameworkss/arsdk.framework'
 
 end
