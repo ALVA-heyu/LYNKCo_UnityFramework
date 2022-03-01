@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '11.0'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  spec.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   
   spec.source       = { :http => 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/LYNK&Co_Frameworks.zip' }
 
