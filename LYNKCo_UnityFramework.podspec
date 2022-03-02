@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   spec.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   
-  spec.source       = { :http => 'https://alva-test-1.oss-accelerate.aliyuncs.com/59498584f7f54819a060a057ef61cd38/LYNK&Co_Frameworks.zip' }
+  spec.source       = { :http => 'https://alva-test-1.oss-accelerate.aliyuncs.com/06163f3fb9ed49f999022a871f40f012/LYNK&Co_Frameworks.zip' }
 
   spec.vendored_frameworks = 'Frameworks/UnityFramework.framework','Frameworks/arsdk.framework'
 
