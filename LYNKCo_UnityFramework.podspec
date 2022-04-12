@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'LYNKCo_UnityFramework'
-  spec.version      = '0.0.3'
+  spec.version      = '0.0.5'
   spec.summary      = 'LYNK&Co UnityFramework for iOS.'
   spec.description  = <<-DESC
                           LYNK&Co UnityFramework for iOS...
